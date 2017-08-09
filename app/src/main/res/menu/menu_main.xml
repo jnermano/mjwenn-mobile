@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kasik.mjwenn.MainActivity">
+
+    <item
+        android:id="@+id/action_main_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="@string/search"/>
+
+    <item
+        android:id="@+id/action_main_account"
+        android:title="@string/action_main_account"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_main_invite"
+        android:title="@string/invite"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_main_help"
+        android:title="@string/help"
+        app:showAsAction="never" />
+</menu>
